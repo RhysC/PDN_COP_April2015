@@ -1,4 +1,6 @@
-﻿using com.terriblecode.dal;
+﻿using System.Collections.Generic;
+
+using com.terriblecode.dal;
 
 namespace com.terriblecode.businesslayer
 {
@@ -16,11 +18,25 @@ namespace com.terriblecode.businesslayer
             return repository.GetById(id);
         }
 
+        public int Save(Employee employee)
+        {
+            var repository = new Repository<Employee>();
+            
+            return repository.Save(employee);
+        }
+
         public void Update(Employee employee)
         {
             var repository = new Repository<Employee>();
             
             repository.Update(employee);
+        }
+
+        public IEnumerable<Employee> List()
+        {
+            var repository = new Repository<Employee>();
+
+            return repository.List();
         }
     }
 }
