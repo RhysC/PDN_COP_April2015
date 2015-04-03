@@ -1,7 +1,7 @@
 CREATE TABLE [Employee](
        [Id] [int] IDENTITY(1,1) NOT NULL,
-       [Name] [varchar](255) NULL,
-       [Email] [varchar](255) NULL
+       [Name] [varchar](255) NOT NULL,
+       [Email] [varchar](255) NOT NULL
 CONSTRAINT [PK_Events] PRIMARY KEY CLUSTERED 
 (
        [Id] ASC
@@ -10,5 +10,5 @@ CONSTRAINT [PK_Events] PRIMARY KEY CLUSTERED
 
 GO
 
-GRANT INSERT, UPDATE, DELETE ON [Employee] TO [employeemanagementuser]
+GRANT SELECT, INSERT, UPDATE, DELETE ON [Employee] TO [employeemanagementuser]
 GO
