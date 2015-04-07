@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.terriblecode.businesslayer", "com.terriblecode.businesslayer\com.terriblecode.businesslayer.csproj", "{19A14FC2-AF2C-4FCC-9D78-E44A8547F3AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.terriblecode.dal", "com.terriblecode.dal\com.terriblecode.dal.csproj", "{9AF1D4B0-77C5-46AE-8FB4-AD57397DB6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.terriblecode.ui", "com.terriblecode.ui\com.terriblecode.ui.csproj", "{79031A28-0FD7-4CBB-B02F-7A2A1EFCA9D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19A14FC2-AF2C-4FCC-9D78-E44A8547F3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A14FC2-AF2C-4FCC-9D78-E44A8547F3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A14FC2-AF2C-4FCC-9D78-E44A8547F3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A14FC2-AF2C-4FCC-9D78-E44A8547F3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF1D4B0-77C5-46AE-8FB4-AD57397DB6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF1D4B0-77C5-46AE-8FB4-AD57397DB6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF1D4B0-77C5-46AE-8FB4-AD57397DB6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF1D4B0-77C5-46AE-8FB4-AD57397DB6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79031A28-0FD7-4CBB-B02F-7A2A1EFCA9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79031A28-0FD7-4CBB-B02F-7A2A1EFCA9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79031A28-0FD7-4CBB-B02F-7A2A1EFCA9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79031A28-0FD7-4CBB-B02F-7A2A1EFCA9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
